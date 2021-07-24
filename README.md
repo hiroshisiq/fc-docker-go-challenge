@@ -1,5 +1,5 @@
 # fc-docker-go-challenge
-Fullcycle 2.0 go challenge from docker module
+Fullcycle 2.0 go challenge from docker module.
 
 You can run this project with:
 ```
