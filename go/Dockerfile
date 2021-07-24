@@ -8,8 +8,8 @@ RUN go get -d -v ./...
 RUN go install -v ./...
 
 
-FROM busybox:1.33
+FROM scratch
 
-COPY --from=builder /go/bin /usr/bin
+COPY --from=builder /go/bin/hello-fullcycle /usr/bin/hello-fullcycle
 
 CMD ["hello-fullcycle"]
